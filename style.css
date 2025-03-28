@@ -1,0 +1,234 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+select,
+textarea,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-size: 14px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #141618;
+}
+
+.header .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header .logo {
+    margin-right: 40px;
+    font-size: 20px;
+    display: flex;
+    color: aliceblue;
+}
+
+.header .menu ul li a {
+    color: rgb(68, 208, 233);
+    display: flex;
+    align-items: center;
+}
+
+.header .menu ul li a i {
+    margin-right: 8px;
+}
+
+.header .menu ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.header .search {
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.header .search input {
+    height: 34px;
+    width: 200px;
+    border-radius: 4px;
+    background: #31363a;
+    padding: 0 10px;
+    color: #f3faff;
+}
+
+.header .search input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.header .search button {
+    width: 32px;
+    height: 34px;
+    background: #31363a;
+    color: #f3faff;
+    cursor: pointer;
+}
+
+.header .search button:hover {
+    background: rgb(68, 208, 233);
+}
+
+.header .loginButtons ul {
+    display: flex;
+}
+
+.header .loginButtons ul li {
+    margin-left: 14px;
+}
+
+.header .loginButtons ul a {
+    height: 34px;
+    display: block;
+    line-height: 34px;
+    color: #f3faff;
+}
+
+.header .loginButtons ul li.joinButton a {
+    background: rgb(9, 202, 193);
+    border-radius: 4px;
+    padding: 0 15px;
+}
