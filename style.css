@@ -83,7 +83,9 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
+
 
 article,
 aside,
@@ -231,4 +233,48 @@ img {
     background: rgb(9, 202, 193);
     border-radius: 4px;
     padding: 0 15px;
+}
+
+/* Section Banner */
+
+.banner {
+
+    background: linear-gradient(170deg, #04192c, #414950);
+}
+
+.banner .container {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+
+}
+
+.banner .container .banner-box {
+    width: 50%;
+}
+
+.banner .container .banner-box img {
+    max-width: 100%;
+}
+
+.banner .container .banner-box-img {
+    padding-left: 150px;
+}
+
+.banner .container .banner-box h1 {
+    font-size: 49px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 56px;
+}
+
+.banner .container .banner-box h2 {
+    font-size: 19px;
+    color: rgb(9, 202, 193);
+    margin-top: 10px;
+}
+
+.banner .container .banner-box .button {
+    margin-top: 65px;
+    display: inline-block;
 }
