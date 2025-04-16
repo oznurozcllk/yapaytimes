@@ -314,6 +314,8 @@ img {
 /* Section 1 */
 .section1 {
     display: flex;
+    align-items: center;
+    padding: 100px 0;
 }
 
 .section1 .langue {
@@ -322,6 +324,7 @@ img {
     min-width: 392px;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 .section1 .langue a {
@@ -349,4 +352,21 @@ img {
 
 .section1 .langue a .tittle {
     font-size: 18px;
+}
+
+.section1 .inner {
+    padding-left: 130px;
+}
+
+.section1 .inner h3 {
+    font-size: 35px;
+    color: #111;
+    margin-bottom: 35px;
+
+}
+
+.section1 .inner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 28px;
 }
