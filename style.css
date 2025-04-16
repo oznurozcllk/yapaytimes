@@ -104,6 +104,8 @@ section {
 body {
     line-height: 1;
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f7f9;
 }
 
 ol,
@@ -307,4 +309,44 @@ img {
 .banner .container .banner-box .btn:hover {
     color: #ffffff;
     background: #2d3131;
+}
+
+/* Section 1 */
+.section1 {
+    display: flex;
+}
+
+.section1 .langue {
+    display: flex;
+    width: 392px;
+    min-width: 392px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section1 .langue a {
+    display: flex;
+    flex-direction: column;
+    width: 184px;
+    height: 184px;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px -5px rgb(0, 0, 0, .1);
+    transition: 200ms all;
+}
+
+.section1 .langue a:hover {
+    transform: scale(1.03);
+}
+
+.section1 .langue a img {
+    margin-bottom: 10px;
+    height: 55px;
+}
+
+.section1 .langue a .tittle {
+    font-size: 18px;
 }
