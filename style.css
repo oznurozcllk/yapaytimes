@@ -315,7 +315,7 @@ img {
 .section1 {
     display: flex;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 0 100px;
 }
 
 .section1 .langue {
@@ -369,4 +369,51 @@ img {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 28px;
+}
+
+/* Section-User-review */
+
+.Section-User-review {
+    background: #fff;
+    box-shadow: 0 5px 15px -5px rgb(0, 0, 0, .1);
+    padding: 64px 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+.Section-User-review .icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #f4f7f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #31363a;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.Section-User-review p {
+
+    font: 22px/36px Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 60%;
+}
+
+.Section-User-review .user {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0, .7)
+}
+
+.Section-User-review .user img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 8px;
 }
